@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+#menu, #order {
+    margin-bottom: 30px;
+}
+
+.menu-item, .order-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+#payment-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+}
+
+#payment-section input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 7px;
+}
+
+#success {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    margin-top: 20px;
+}
